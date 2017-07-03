@@ -20,3 +20,16 @@ else:
         time.sleep(2)
         browser.find_element_by_xpath(".//*[@id='main']/footer/div[1]/button").click()
         time.sleep(2)
+
+
+'''
+browser.find_element_by_xpath(".//*[@id='side']/div[2]/div/label/input").send_keys("Elon Musk") #search friend
+time.sleep(5)
+browser.find_element_by_xpath(".//*[@title='Elon Musk']").click()
+time.sleep(5)
+for i in range(1, 50):
+    browser.find_element_by_xpath(".//*[@id='main']/footer/div[1]/div[2]/div/div[2]").send_keys("Spam Content!") #your message here.
+    time.sleep(1)
+    browser.find_element_by_xpath(".//*[@id='main']/footer/div[1]/button").click()
+    time.sleep(1)
+'''
